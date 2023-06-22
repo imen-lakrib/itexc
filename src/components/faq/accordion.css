@@ -1,0 +1,23 @@
+.accordion {
+    margin-bottom: 10px;
+  }
+  
+  .accordion__header {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .accordion__header.active {
+    background-color: #ccc;
+  }
+  
+  .accordion__content {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  

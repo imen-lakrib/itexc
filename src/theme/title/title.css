@@ -1,0 +1,14 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.title h1{
+    padding-right: 10px;
+
+}
+.title img{
+    padding-bottom: 10px;
+
+}

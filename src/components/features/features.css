@@ -28,7 +28,7 @@
   
   @media (max-width: 768px) {
     .features-container {
-        top: 550px;
+        top: 500px;
         left: 10px;
         right: 10px;
       }
@@ -49,3 +49,17 @@
       
   }
   
+
+  /*  Responsivness */
+
+@media (max-width: 350px) {
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+}

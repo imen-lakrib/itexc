@@ -1,4 +1,5 @@
 .nav-container {
+
     padding: 10px 40px;
     display: flex;
     justify-content: space-between;
@@ -8,7 +9,7 @@
     left: 0;
     right: 0;
     background-color: #fff;
-    z-index: 999;
+    z-index: 1000;
     transition: background-color 0.3s ease;
   }
   
