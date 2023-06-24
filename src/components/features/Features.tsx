@@ -1,4 +1,3 @@
-import React from 'react';
 import Feature from './Feature';
 import './features.css';
 import { features } from '../../data/Data';

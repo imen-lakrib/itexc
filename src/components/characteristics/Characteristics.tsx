@@ -1,4 +1,3 @@
-import React from "react";
 import "./characteristics.css";
 import Characteristic from "./Characteristic";
 import Title from "../../theme/title/Title";

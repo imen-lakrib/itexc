@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./services.css";
 import Service from "./Service";
 import { Grid } from "@mui/material";

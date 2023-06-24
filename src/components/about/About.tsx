@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import Title from "../../theme/title/Title";
 const About = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 import { Divider } from "@mui/material";
 const Footer = () => {

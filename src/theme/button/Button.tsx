@@ -6,7 +6,7 @@ type ButtonProps = {
   type? :"submit";
 };
 
-const Button: React.FC<ButtonProps> = ({ text, link, type }) => {
+const Button: React.FC<ButtonProps> = ({ text, type }) => {
   const handleClick = () => {
     // Handle button click here
   };

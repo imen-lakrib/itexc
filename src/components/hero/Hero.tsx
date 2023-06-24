@@ -1,4 +1,3 @@
-import React from "react";
 import "./hero.css";
 import Button from "../../theme/button/Button";
 import Features from "../features/Features";

@@ -1,5 +1,4 @@
 import React from "react";
-import StarIcon from "@mui/icons-material/Star";
 import StarRating from "../../theme/rating/StarRating";
 
 interface Testimonial {

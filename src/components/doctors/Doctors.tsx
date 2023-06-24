@@ -1,4 +1,3 @@
-import React from "react";
 import "./doxtors.css";
 import Button from "../../theme/button/Button";
 const Doctors = () => {

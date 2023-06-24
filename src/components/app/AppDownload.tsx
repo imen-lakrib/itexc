@@ -1,5 +1,3 @@
-import React from "react";
-import StarRateIcon from '@mui/icons-material/StarRate';
 import "./appDownload.css";
 import StarRating from "../../theme/rating/StarRating";
 const AppDownload = () => {

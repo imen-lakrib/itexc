@@ -1,9 +1,9 @@
-import React, { useState } from "react";
 import { Link, animateScroll } from "react-scroll";
 import PhoneInTalkOutlinedIcon from "@mui/icons-material/PhoneInTalkOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import "./navbar.css";
 import MobileMenu from "./MobileMenu";
+import { useState } from "react";
 
 type MenuItem = {
   id: string;

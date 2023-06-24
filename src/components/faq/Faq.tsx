@@ -1,4 +1,3 @@
-import React from "react";
 import Accordion from "./Accordion";
 import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
 import Button from "../../theme/button/Button";
