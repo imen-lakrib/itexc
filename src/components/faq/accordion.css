@@ -1,23 +1,130 @@
+.faq-container {
+  padding: 50px;
+}
+.faq {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.faq-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faq-left {
+  width: 600px;
+}
+.faq-left p {
+  margin: 40px 0;
+}
 .accordion {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.accordion__header {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion__header.active {
+  background-color: #3a3b3b;
+  color: var(--white-color);
+}
+
+.accordion__content {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.faq-right  {
+  padding: 20px;
+  width: 300px;
+}
+.faq-img{
+  width: 300px;
+}
+.faq-img img{
+  width: 100%;
+}
+
+
+.inner-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-button img{
+  width: 80px !important;
+}
+
+
+.section {
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  width: 100%;
+  margin-top: -40px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 40px;
+}
+
+
+
+/*  Responsivness */
+
+@media (min-width: 10px) and (max-width: 350px) {
+  .faq-container {
+    padding: 20px;
   }
+  .faq {
+    flex-direction: column;
+  }
+
+
   
-  .accordion__header {
-    display: block;
+  .faq-left {
     width: 100%;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border: none;
-    text-align: left;
-    cursor: pointer;
   }
   
-  .accordion__header.active {
-    background-color: #ccc;
-  }
   
-  .accordion__content {
-    padding: 10px;
-    background-color: #f9f9f9;
-  }
   
+  
+  .faq-right  {
+    padding: 20px;
+    width: 100%;
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+}

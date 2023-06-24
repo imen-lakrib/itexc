@@ -1,25 +1,67 @@
-import React from 'react'
-import Accordion from './Accordion';
-
+import React from "react";
+import Accordion from "./Accordion";
+import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
+import Button from "../../theme/button/Button";
+const questions = [
+  {
+    id: "01",
+    title: "Question text goes here",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+  },
+  {
+    id: "02",
+    title: "Question text goes here",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+  },
+  {
+    id: "03",
+    title: "Question text goes here",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+  },
+];
 const Faq = () => {
   return (
-    <div>
-              <Accordion title="Section 1" content="Content for Section 1" />
-              <Accordion title="Section 1" content="Content for Section 1" />
+    <div className="faq-container">
+      <div className="faq-title">
+        <SmsOutlinedIcon sx={{ color: "#F27219" }} />
+        <h1>FAQ</h1>
+      </div>
+      <div className="faq">
+        <div className="faq-left">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          {questions.map((question) => {
+            return <Accordion question={question} />;
+          })}
+        </div>
 
-              <Accordion title="Section 1" content="Content for Section 1" />
+        
 
-              <Accordion title="Section 1" content="Content for Section 1" />
-
-              <Accordion title="Section 1" content="Content for Section 1" />
-
-              <Accordion title="Section 1" content="Content for Section 1" />
-
-              <Accordion title="Section 1" content="Content for Section 1" />
-
-
+        <div className="section">
+          <div className="row">
+            <img src="/faq.png" alt="faq" />
+          </div>
+          <div className="row">
+            <div className="content">
+              <h3>Still have a question?</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div className="inner-button">
+                <Button link="/" text="Get Started"></Button>
+                <img src="/Vector.png" alt="vector" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Faq
+export default Faq;

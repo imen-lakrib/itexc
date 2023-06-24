@@ -1,7 +1,8 @@
 .button {
-    background-color: #F27219;
+    background-color: var(--secondary-color);
     color: white;
     font-weight: bold;
     padding: 10px 20px;
     border: none;
+    margin: 20px 0;
   }

@@ -33,9 +33,13 @@
 
 /*  Responsivness */
 
-@media (max-width: 350px) {
+@media (min-width: 10px) and  (max-width: 350px) {
+    .about-title h1{
+        font-size: 100px !important;
+    
+    }
     .about-section{
-        padding: 150px 20px 10px 20px;
+        padding: 250px 20px 10px 20px;
     }
     .about-section .logo-White {
         display: none;
@@ -49,8 +53,19 @@
     .about-text{
         width: 100%;
     }
-    
-}
+  }
+  
+  @media (min-width: 351px) and (max-width: 700px) {
+  }
+  
+  @media (min-width: 701px) and (max-width: 1200px) {
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1920px) {
+  }
+  
+
+
 
 @media (min-width: 351px) and (max-width: 700px) {
     .about-section{

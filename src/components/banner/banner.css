@@ -1,0 +1,43 @@
+.banner-container {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0 !important;
+}
+
+.banner-container h1 {
+  padding: 40px 350px;
+}
+
+.banner-container p {
+  padding: 5px 250px 50px 250px;
+}
+.banner-container img {
+  width: 100%;
+}
+
+/*  Responsivness */
+
+@media (min-width: 10px) and (max-width: 350px) {
+  .banner-container {
+    padding: 10px;
+  }
+
+  .banner-container h1 {
+    padding: 20px;
+  }
+
+  .banner-container p {
+    padding: 20px;
+  }
+  
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+}

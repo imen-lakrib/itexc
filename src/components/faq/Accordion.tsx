@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import './accordion.css';
 
 type AccordionProps = {
-  title: string;
-  content: string;
+  question: {
+    id: string;
+    title: string;
+    description: string;
+  };
 };
 
-const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
+const Accordion: React.FC<AccordionProps> = ({ question }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -16,9 +19,9 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
   return (
     <div className="accordion">
       <button className={`accordion__header ${isOpen ? 'active' : ''}`} onClick={handleToggle}>
-        {title}
+         <span style={{color:"#F27219", fontWeight:"bolder", fontSize:"15px"}}>{question.id}:</span>{question.title}
       </button>
-      {isOpen && <div className="accordion__content">{content}</div>}
+      {isOpen && <div className="accordion__content">{question.description}</div>}
     </div>
   );
 };

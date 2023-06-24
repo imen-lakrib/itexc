@@ -1,0 +1,45 @@
+.docotor-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.text{
+    padding: 40px;
+    width: 420px;
+}
+.docotor-section img{
+    width: 500px;
+}
+
+
+
+
+
+@media (min-width: 0) and (max-width: 650px) {
+    .docotor-section{
+        display: block;
+        padding: 20px;
+    }
+    .text{
+        padding: 20px;
+        width: 100%;
+    }
+    .docotor-section img{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 650px) and (max-width: 800px) {
+    .docotor-section img{
+        width: 250px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .docotor-section img{
+        width: 300px;
+    }
+}
+

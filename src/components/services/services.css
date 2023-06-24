@@ -1,0 +1,45 @@
+.services-section {
+  background-color: #f4f7fa;
+  padding: 40px 80px;
+  text-align: center;
+}
+
+.service-container {
+  background-color: var(--white-color);
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.service-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+
+
+/*  Responsivness */
+
+@media (min-width: 10px) and  (max-width: 350px) {
+  .services-section {
+    padding: 10px;
+  }
+  
+ 
+  
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
+}

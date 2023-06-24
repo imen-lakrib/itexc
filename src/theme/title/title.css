@@ -1,14 +1,23 @@
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.title h1{
-    padding-right: 10px;
-
+.title h1 {
+  padding-right: 10px;
 }
-.title img{
-    padding-bottom: 10px;
+.title img {
+  padding-bottom: 10px;
+}
 
+@media (min-width: 10px) and (max-width: 350px) {
+  .title h1 {
+    font-size: 20px;
+  }
+  .title img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
 }

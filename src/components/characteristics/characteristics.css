@@ -1,0 +1,44 @@
+.caracteristic-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.single-caractere {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.caracteristics-items {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+
+.caracteristic-description{
+    width: 100%;
+}
+.caracteristic-description p{
+  margin: 10px 0;
+}
+
+
+@media (max-width: 350px) {
+    .caracteristic-section {
+        
+        padding: 10px;
+      }
+     
+    
+}
+
+@media (min-width: 351px) and (max-width: 700px) {
+   
+    .caracteristic-section {
+        
+        padding: 20px;
+      }
+     
+   
+}
+

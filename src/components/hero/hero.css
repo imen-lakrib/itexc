@@ -34,28 +34,30 @@
   z-index: 1;
 }
 
-@media (max-width: 720px) {
+
+
+/*  Responsivness */
+
+@media (min-width: 10px) and  (max-width: 350px) {
+  .hero-section {
+    margin-bottom: 250px;
+  }
   .hero-titles h1 {
-    width: 380px;
+    width: 250px;
     font-size: 38px;
   }
 
   .hero-titles p {
-    width: 380px;
+    width: 250px;
     font-size: 14px;
   }
 }
-@media (max-width: 450px) {
-  .hero-section {
-   margin-bottom: 250px;
-  }
-  .hero-titles h1 {
-    width: 250px;
-    font-size: 38px;
-  }
 
-  .hero-titles p {
-    width: 250px;
-    font-size: 14px;
-  }
+@media (min-width: 351px) and (max-width: 700px) {
+}
+
+@media (min-width: 701px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1920px) {
 }
