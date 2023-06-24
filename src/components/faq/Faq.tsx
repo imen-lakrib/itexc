@@ -2,26 +2,7 @@ import React from "react";
 import Accordion from "./Accordion";
 import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
 import Button from "../../theme/button/Button";
-const questions = [
-  {
-    id: "01",
-    title: "Question text goes here",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
-  },
-  {
-    id: "02",
-    title: "Question text goes here",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
-  },
-  {
-    id: "03",
-    title: "Question text goes here",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
-  },
-];
+import { questions } from "../../data/Data";
 const Faq = () => {
   return (
     <div className="faq-container">

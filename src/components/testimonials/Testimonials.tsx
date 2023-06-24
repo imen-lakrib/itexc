@@ -10,6 +10,7 @@ interface TestimonialData {
   img: string;
   name: string;
   comment: string;
+  stars: number;
 }
 
 interface TestimonialsProps {

@@ -89,7 +89,7 @@
 
 /*  Responsivness */
 
-@media (min-width: 10px) and (max-width: 350px) {
+@media (min-width: 10px) and (max-width: 600px) {
   .faq-container {
     padding: 20px;
   }
@@ -120,11 +120,28 @@
   
 }
 
-@media (min-width: 351px) and (max-width: 700px) {
+@media (min-width: 601px) and (max-width: 710px) {
+  .faq-container {
+    padding: 30px;
+  }
+  
+ 
+  .faq-left {
+    width: 220px;
+  }
+  
 }
 
-@media (min-width: 701px) and (max-width: 1200px) {
+@media (min-width: 711px) and (max-width: 1020px) {
+  .faq-container {
+    padding: 30px;
+  }
+  
+ 
+  .faq-left {
+    width: 320px;
+  }
+  
 }
 
-@media (min-width: 1201px) and (max-width: 1920px) {
-}
+

@@ -1,10 +1,12 @@
 .contact-container {
   padding: 50px;
 }
+
 .contact-container h2 {
   color: var(--primary-color);
   margin: 20px 0;
 }
+
 .contact-item {
   display: flex;
   justify-content: flex-start;
@@ -39,9 +41,8 @@ form .form-group textarea {
   align-items: start;
 }
 
-/*  Responsivness */
-
-@media (min-width: 10px) and (max-width: 350px) {
+/* Responsiveness */
+@media (max-width: 780px) {
   .contact-container {
     padding: 20px;
   }
@@ -54,18 +55,5 @@ form .form-group textarea {
   form .form-group input[type="email"],
   form .form-group textarea {
     width: 100%;
-   
   }
-
-
- 
-}
-
-@media (min-width: 351px) and (max-width: 700px) {
-}
-
-@media (min-width: 701px) and (max-width: 1200px) {
-}
-
-@media (min-width: 1201px) and (max-width: 1920px) {
 }

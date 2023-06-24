@@ -70,11 +70,23 @@
   
 }
 
-@media (min-width: 351px) and (max-width: 700px) {
+@media (min-width: 351px) and (max-width: 750px) {
+  .testimonials-container {
+    padding: 25px;
+  }
+  
+  
+
+
+  .testimonial-item {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .testimonial-comment {
+    font-size: 12px;
+  }
+
 }
 
-@media (min-width: 701px) and (max-width: 1200px) {
-}
 
-@media (min-width: 1201px) and (max-width: 1920px) {
-}

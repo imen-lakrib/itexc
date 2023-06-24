@@ -2,69 +2,8 @@ import React, { useEffect } from "react";
 import "./services.css";
 import Service from "./Service";
 import { Grid } from "@mui/material";
+import { servicesItems } from "../../data/Data";
 
-const servicesItems = [
-  {
-    id: "01",
-    title: "Cold & flu",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-  {
-    id: "02",
-    title: "Mental health",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-  {
-    id: "03",
-    title: "Mental health",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-  {
-    id: "04",
-    title: "Headaches",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-  {
-    id: "05",
-    title: "Everyday care",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-  {
-    id: "06",
-    title: "Allergies",
-    list: [
-      { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
-    ],
-  },
-];
 const Services = () => {
     
   return (

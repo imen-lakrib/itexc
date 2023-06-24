@@ -34,11 +34,12 @@
   z-index: 1;
 }
 
-
-
 /*  Responsivness */
 
-@media (min-width: 10px) and  (max-width: 350px) {
+@media (min-width: 10px) and (max-width: 350px) {
+  .hero-titles {
+    padding: 200px 40px;
+  }
   .hero-section {
     margin-bottom: 250px;
   }
@@ -53,7 +54,27 @@
   }
 }
 
-@media (min-width: 351px) and (max-width: 700px) {
+@media (min-width: 351px) and (max-width: 450px) {
+  
+  .hero-titles {
+    padding: 200px 80px;
+   
+  }
+  
+  .hero-titles h1 {
+    width: 300px;
+    font-size: 38px;
+  }
+  
+
+  
+  .hero-titles p {
+    width: 300px;
+    font-size: 15px;
+  }
+  
+ 
+  
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {

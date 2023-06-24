@@ -38,24 +38,20 @@
 
 /*  Responsivness */
 
-@media (min-width: 10px) and (max-width: 350px) {
+@media (min-width: 10px) and (max-width: 800px) {
   .search-container {
     flex-direction: column;
     padding: 20px;
   }
-  .img{
-   width: 300px;
+  .img {
+    width: 300px;
   }
-  
+
   .search-rating {
     position: relative;
     bottom: 0;
     left: 0;
   }
-  
-  
-  
-
   .search-description h2 {
     margin: 20px 0;
     color: var(--primary-color);
@@ -69,11 +65,30 @@
   }
 }
 
-@media (min-width: 351px) and (max-width: 700px) {
+@media (min-width: 801px) and (max-width: 950px) {
+    .img{
+        width: 250px;
+    }
+   
+      .search-rating {
+       
+        left: 10px;
+      }
+     
 }
 
-@media (min-width: 701px) and (max-width: 1200px) {
+
+@media (min-width: 951px) and (max-width: 1100px) {
+    .img{
+        width: 350px;
+    }
+   
+      .search-rating {
+       
+        left: 10px;
+      }
+     
 }
 
-@media (min-width: 1201px) and (max-width: 1920px) {
-}
+
+

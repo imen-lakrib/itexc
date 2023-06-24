@@ -18,7 +18,7 @@
 
 /*  Responsivness */
 
-@media (min-width: 10px) and (max-width: 350px) {
+@media (min-width: 10px) and (max-width: 1000px) {
   .banner-container {
     padding: 10px;
   }
@@ -33,11 +33,17 @@
   
 }
 
-@media (min-width: 351px) and (max-width: 700px) {
+@media (min-width: 1001px) and (max-width: 1200px) {
+    .banner-container {
+        padding: 40px;
+      }
+    
+      .banner-container h1 {
+        padding: 40px;
+      }
+    
+      .banner-container p {
+        padding: 40px;
+      }
 }
 
-@media (min-width: 701px) and (max-width: 1200px) {
-}
-
-@media (min-width: 1201px) and (max-width: 1920px) {
-}

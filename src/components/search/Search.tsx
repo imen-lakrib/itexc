@@ -1,7 +1,6 @@
-import React from "react";
 import "./search.css";
 import Button from "../../theme/button/Button";
-import StarIcon from "@mui/icons-material/Star";
+import StarRating from "../../theme/rating/StarRating";
 const Search = () => {
   return (
     <div className="search-container">
@@ -19,11 +18,8 @@ const Search = () => {
         <img src="/care.png" alt="care" />
         <div className="search-ranting-title">
           <h3>Quality over Quantity</h3>
-          <StarIcon sx={{color:"#ffc107"}} />
-          <StarIcon sx={{color:"#ffc107"}} />
-          <StarIcon sx={{color:"#ffc107"}} />
-          <StarIcon sx={{color:"#ffc107"}} />
-          <StarIcon sx={{color:"#ffc107"}} />
+          <StarRating rating={4.9} />
+
 
         </div>
       </div>

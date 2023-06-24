@@ -2,16 +2,8 @@ import React from "react";
 import "./characteristics.css";
 import Characteristic from "./Characteristic";
 import Title from "../../theme/title/Title";
+import { characteristicsItems } from "../../data/Data";
 
-const CharacteristicsItems = [
-  { id: "01", title: "Experienced and Professional Team" },
-  { id: "02", title: "Comprehensive Services" },
-  { id: "03", title: "User-Friendly Interface" },
-  { id: "04", title: "Safe and Secure Data Storage" },
-  { id: "05", title: "Personalized Care" },
-  { id: "06", title: "Positive Reputation" },
-  { id: "07", title: "Convenient Access to Healthcare Services." },
-];
 
 const Characteristics = () => {
   return (
@@ -27,7 +19,7 @@ const Characteristics = () => {
             with a therapist or psychiatrist this week.
           </p>
           <ul className="caracteristics-items">
-            {CharacteristicsItems.map((CharacteristicsItem) => {
+            {characteristicsItems.map((CharacteristicsItem) => {
               return (
                 <li key={CharacteristicsItem.id}>
                   <Characteristic CharacteristicsItem={CharacteristicsItem} />

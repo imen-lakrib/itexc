@@ -5,7 +5,7 @@ import Features from "../features/Features";
 const Hero = () => {
   return (
     <>
-      <div className="hero-section">
+      <div className="hero-section home-section">
         <div className="hero-titles">
           <h1>
             Feel Better about Finding{" "}

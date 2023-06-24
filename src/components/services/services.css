@@ -26,16 +26,12 @@
 
 /*  Responsivness */
 
-@media (min-width: 10px) and  (max-width: 350px) {
+
+
+@media (min-width: 10px) and (max-width: 700px) {
   .services-section {
     padding: 10px;
   }
-  
- 
-  
-}
-
-@media (min-width: 351px) and (max-width: 700px) {
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {

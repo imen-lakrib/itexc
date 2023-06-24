@@ -1,79 +1,57 @@
-.app-section{
+.app-section {
     color: var(--white-color);
     background-color: var(--primary-color);
     padding: 50px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.text{
+  }
+  
+  .text {
     width: 520px;
-}
-.icons{
+  }
+  
+  .icons {
     display: flex;
     flex-direction: column;
-    align-items: flex-end
-
-}
-.play-app-store{
+    align-items: flex-end;
+  }
+  
+  .play-app-store {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end
-}
-.play-app-store img{
+    justify-content: flex-end;
+  }
+  
+  .play-app-store img {
     width: 150px;
-}
-
-
-@media (max-width: 350px) {
-    .app-section{
+  }
+  
+  @media (max-width: 350px), (min-width: 351px) and (max-width: 900px) {
+    .app-section {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
       text-align: center;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
     }
-    .text{
-        width: 100%;
+  
+    .text {
+      width: 100%;
     }
-    .icons{
-        margin-top: 20px;
-        align-items: flex-start
-    
+  
+    .icons {
+      margin-top: 20px;
+      align-items: flex-start;
     }
-    .play-app-store{
-        justify-content: flex-start
-    
+  
+    .play-app-store {
+      justify-content: flex-start;
     }
-    .play-app-store img{
-        width: 100px !important;
-    
+  
+    .play-app-store img {
+      width: 100px !important;
     }
-}
-@media (min-width: 351px) and (max-width: 700px) {
-    .app-section{
-      
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    .text{
-        width: 100%;
-    }
-    .icons{
-        margin-top: 20px;
-        align-items: flex-start
-    
-    }
-    .play-app-store{
-        justify-content: flex-start
-    
-    }
-    .play-app-store img{
-        width: 120px;
-    
-    }
-}
+  }
+  

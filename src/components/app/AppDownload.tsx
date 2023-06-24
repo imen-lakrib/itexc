@@ -1,6 +1,7 @@
 import React from "react";
 import StarRateIcon from '@mui/icons-material/StarRate';
 import "./appDownload.css";
+import StarRating from "../../theme/rating/StarRating";
 const AppDownload = () => {
   return (
     <div className="app-section">
@@ -19,12 +20,9 @@ const AppDownload = () => {
         </div>
         <div className="reviews">
           <span>4.9</span>
+          <StarRating rating={4.9} />
           
-          <StarRateIcon/>
-          <StarRateIcon/>
-          <StarRateIcon/>
-          <StarRateIcon/>
-          <StarRateIcon/>
+         
 
         </div>
         <p>190.7k Rating</p>

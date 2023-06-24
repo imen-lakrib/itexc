@@ -1,11 +1,13 @@
 import React from "react";
 import StarIcon from "@mui/icons-material/Star";
+import StarRating from "../../theme/rating/StarRating";
 
 interface Testimonial {
   id: number;
   name: string;
   comment: string;
   img: string;
+  stars: number;
 }
 
 interface TestimonialProps {
@@ -28,13 +30,8 @@ const Testimonial: React.FC<TestimonialProps> = ({
             }`}
           >
             <div className="star-icons">
-              {[...Array(5)].map((_, i) => (
-                <StarIcon
-                  sx={{ color: "#ffc107" }}
-                  key={i}
-                  className={`star-icon ${i < activeIndex ? "filled" : ""}`}
-                />
-              ))}
+            <StarRating rating={testimonial.stars} />
+
             </div>
             <p className="testimonial-comment">{testimonial.comment}</p>
             <img
