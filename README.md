@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 * 4-Open the website in your browser: `http://localhost:3000`
 * Feel free to explore the codebase and customize the landing page according to your requirements.
 
-# check on live :
-    ``
+# Check on live :
+    [Click here](https://itexc.vercel.app/)
 # Credits
-The iText Landing Page project is craeted by [imen lakrib].
+The iText Landing Page project is craeted by [Imen Lakrib](https://imen-lakrib.me/).
