@@ -2,6 +2,7 @@ import Accordion from "./Accordion";
 import SmsOutlinedIcon from "@mui/icons-material/SmsOutlined";
 import Button from "../../theme/button/Button";
 import { questions } from "../../data/Data";
+
 const Faq = () => {
   return (
     <div className="faq-container">
@@ -18,11 +19,9 @@ const Faq = () => {
             vitae erat.
           </p>
           {questions.map((question) => {
-            return <Accordion question={question} />;
+            return <Accordion key={question.id} question={question} />;
           })}
         </div>
-
-        
 
         <div className="section">
           <div className="row">
@@ -33,7 +32,7 @@ const Faq = () => {
               <h3>Still have a question?</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               <div className="inner-button">
-                <Button link="/" text="Get Started"></Button>
+                <Button link="/" text="Get Started" />
                 <img src="/Vector.png" alt="vector" />
               </div>
             </div>

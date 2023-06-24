@@ -17,7 +17,7 @@ const Accordion: React.FC<AccordionProps> = ({ question }) => {
   };
 
   return (
-    <div className="accordion">
+    <div key={question.id} className="accordion">
       <button className={`accordion__header ${isOpen ? 'active' : ''}`} onClick={handleToggle}>
          <span style={{color:"#F27219", fontWeight:"bolder", fontSize:"15px"}}>{question.id}:</span>{question.title}
       </button>

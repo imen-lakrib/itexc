@@ -33,9 +33,9 @@ export const servicesItems = [
     title: "Mental health",
     list: [
       { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
+      { id: "02", item: "Headaches" },
+      { id: "03", item: "Nausea & vomiting" },
+      { id: "04", item: "Fever" },
     ],
   },
   {
@@ -43,9 +43,9 @@ export const servicesItems = [
     title: "Mental health",
     list: [
       { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
+      { id: "02", item: "Headaches" },
+      { id: "03", item: "Nausea & vomiting" },
+      { id: "04", item: "Fever" },
     ],
   },
   {
@@ -53,9 +53,9 @@ export const servicesItems = [
     title: "Headaches",
     list: [
       { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
+      { id: "02", item: "Headaches" },
+      { id: "03", item: "Nausea & vomiting" },
+      { id: "04", item: "Fever" },
     ],
   },
   {
@@ -63,9 +63,9 @@ export const servicesItems = [
     title: "Everyday care",
     list: [
       { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
+      { id: "02", item: "Headaches" },
+      { id: "03", item: "Nausea & vomiting" },
+      { id: "04", item: "Fever" },
     ],
   },
   {
@@ -73,9 +73,9 @@ export const servicesItems = [
     title: "Allergies",
     list: [
       { id: "01", item: "Cough" },
-      { id: "01", item: "Headaches" },
-      { id: "01", item: "Nausea & vomiting" },
-      { id: "01", item: "Fever" },
+      { id: "02", item: "Headaches" },
+      { id: "03", item: "Nausea & vomiting" },
+      { id: "04", item: "Fever" },
     ],
   },
 ];
@@ -98,7 +98,7 @@ export const testimonialsData = [
     comment: 'Vestibulum ultricies justo et nunc rhoncus, sed gravida tortor aliquam.',
   },
   {
-    id: 2,
+    id: 3,
     img: '/person.png',
     name: 'imen lakrib',
     stars:4,
